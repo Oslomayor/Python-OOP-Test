@@ -6,7 +6,7 @@
 - 发现 __self 不是固定名称__，可以取符合变量规则的任意名称
 
   ```python
-  def __init__(selfhappy, name):
+      def __init__(selfhappy, name):
           selfhappy.name = name
           print('(Initializing {0})'.format(selfhappy.name))
           Robot.population += 1
